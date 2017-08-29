@@ -1,0 +1,82 @@
+body {
+  background-color: #1DB0C2;
+}
+
+.container {
+  margin-top: 50px;
+  height: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.content {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#searchField {
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  outline: none;
+  height: 50px;
+  font-size: 20px;
+}
+
+#SearchFieldAndRefresh {
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: white;
+  width: 0px;
+  margin: auto;
+}
+
+#SearchButton {
+  margin: auto;
+  width: 10px;
+  height: 40px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.Image {
+  margin: 30px;
+  width: 50px;
+}
+
+.Description {
+  text-align: left;
+}
+
+.heading {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text {
+  padding: 0 50px;
+}
+
+.tile {
+  color: white;
+  background-color: #4CAF50;
+  margin-top: 20px;
+  height 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+}
+
+#refreshButton {
+  cursor: pointer;
+}
